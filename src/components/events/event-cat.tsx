@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 import type { IProps } from "@/pages/events/[cat]";
 
- export const EventCat = memo(function ({ data }: IProps) {
+ export const EventCat = memo(function EventCat({ data }: IProps) {
   const router = useRouter();
   const { cat } = router.query;
 

@@ -21,7 +21,7 @@ function reducer(current:typeof initialData,update:Partial<typeof initialData>){
   }
 }
 
-export const SingleEvent = memo(function ({
+export const SingleEvent = memo(function SingleEvent({
   data,
 }: {
   data: IProps["data"][number];

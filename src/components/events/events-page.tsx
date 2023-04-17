@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { IProps } from "@/pages";
 
-export const EventPage = memo(function ({ data }: IProps) {
+export const EventPage = memo(function EventPage({ data }: IProps) {
   return (
     <div>
       <h1>Events</h1>
